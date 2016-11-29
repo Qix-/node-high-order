@@ -1,0 +1,35 @@
+{
+  "name": "high-order",
+  "description": "Find the length of a UTF-8 glyph by its first byte",
+  "version": "0.1.0",
+  "author": "Qix (http://github.com/qix-)",
+  "keywords": [
+    "utf8",
+    "unicode",
+    "utf-8",
+    "ucs",
+    "first",
+    "byte",
+    "high",
+    "order",
+    "length",
+    "buffer"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pretest": "xo",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "qix-/node-high-order",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1",
+    "xo": "^0.7.1"
+  }
+}
