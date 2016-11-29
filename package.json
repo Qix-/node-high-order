@@ -1,7 +1,7 @@
 {
   "name": "high-order",
   "description": "Find the length of a UTF-8 glyph by its first byte",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Qix (http://github.com/qix-)",
   "keywords": [
     "utf8",
